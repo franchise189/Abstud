@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./data/Agency.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="./js/script.js"></script>
+
+    <title>ABSTUD</title>
+  </head>
+  <body>
+    <a href="#" class="go-up">
+      <i class="bx bxs-chevron-up"></i>
+    </a>
+    <header class="header">
+      <div class="header_container">
+        <div class="whole-logo">
+          <img class="logo" src="./data/LOGO.png" />
+          <p>
+            <span class="capital">A</span>BROAD <br /><span class="capital"
+              >S</span
+            >TUDIES<br/> <span class="capital">C</span>ONSULTANCY 
+          </p>
+        </div>
+        <ul class="header_ul">
+          <li class="header_li">
+            <button>
+              <a href="#"><i class="bx bx-home-alt-2"></i>Home</a>
+            </button>
+          </li>         
+          <li class="header_li" style="margin-right: -2rem">
+            <button><i class="bx bx-bulb"></i>Services</button>
+            <div class="header_li--dropdown">
+              <a href="./pages/Visa/visa.html">Visa</a>
+              <a href="./pages/Accommodation/Accommodation.html">Work Permit</a>
+                
+              <a href="./pages/Admission/admission.html">CV Revamping</a>
+              
+            </div> 
+          </li>
+          <li class="header_li">
+            <button>
+              <a href="./pages/Blog/Blog.html"
+                ><i class="bx bx-pencil"></i>Blog</a
+              >
+            </button>
+          </li>
+          <li class="header_li">
+            <button>
+              <a href="./pages/Contact Us/contactUs.html"
+                ><i class="bx bx-conversation"></i>Contact us</a
+              >
+            </button>
+          </li>
+          <li class="header_li">
+            <button>
+              <a href="./pages/About Us/aboutUs.html"
+                ><i class="bx bx-user-circle"></i>About us</a
+              >
+            </button>
+          </li>
+        </ul>
+        <div class="btn btn-readmore btn-header">
+          <a href="./pages/Register/register.html"
+            ><i class="bx bx-world"></i>Register</a
+          >
+        </div>
+        <!-- --------------------------------------- -->
+        <!-- <button class="ham-menu sidebar-toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </button> -->
+
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+
+          <div class="navigation__background">&nbsp;</div>
+
+          <nav class="navigation__nav">
+            <ul class="navigation__list display-none">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link"
+                  ><span>01</span>Home</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/FlightTraning/flightTraning.html"
+                  class="navigation__link"
+                  ><span>02</span>Flight Traning</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Cabin Crew/cabinCrew.html"
+                  class="navigation__link"
+                  ><span>03</span>Cabin Crew</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Admission/admission.html"
+                  class="navigation__link"
+                  ><span>04</span>Admission</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./pages/Visa/visa.html" class="navigation__link"
+                  ><span>05</span>Visa</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Accommodation/Accommodation.html"
+                  class="navigation__link"
+                  ><span>06</span>Accommodation</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./pages/Blog/Blog.html" class="navigation__link"
+                  ><span>07</span>Blog</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="/pages/Contact Us/contactUs.html"
+                  class="navigation__link"
+                  ><span>08</span>Contact Us</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="/pages/About Us/aboutUs.html" class="navigation__link"
+                  ><span>09</span>About Us</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- --------------------------------------- -->
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero_header">
+          <h1>Fly to the sky for your dreams...</h1>
+          <p>Start your future career with a great offer.</p>
+          <div class="btn btn-register">
+            <a href="./pages/Contact Us/contactUs.html"
+              ><i class="bx bxs-book-open"></i>Reach us</a
+            >
+          </div>
+        </div>
+        <div>
+          <div class="hero_images-container">
+            <img src="./data/p2.jpg" class="i1" />
+            <img src="./data/ENGINEER.jpeg" class="i2" />
+            <img
+              src="./data/DOC.jpeg"
+              class="i3"
+            />
+          </div>
+        </div>
+      </section>
+      <div id="read-more"></div>
+      <section class="rest" id="about">
+        <h1 class="head">ABOUT ABSTUD</h1>
+        <p style="line-height: 1.5rem; padding: 1rem">
+
+          At ABSTUD, we are dedicated to empowering students worldwide through comprehensive guidance and support to pursue quality educational opportunities abroad. Our mission is to facilitate access to top-tier institutions while fostering academic excellence, cultural understanding, and global citizenship.
+
+          Driven by a vision of becoming the leading global platform for connecting aspiring students with esteemed educational institutions, we aspire to create a world where every student has the opportunity to realize their dreams, broaden their horizons, and contribute meaningfully to society.
+
+          With a commitment to excellence, integrity, and personalized service, we strive to provide unparalleled assistance throughout the entire journey—from initial exploration to successful enrollment and beyond.
+
+          At ABSTUD, we believe that education knows no boundaries, and we are here to guide you every step of the way.
+
+          
+      </section>
+
+      <section class="intrested">
+        <div class="wrapper">
+          <video class="bg-video__content" autoplay loop muted>
+            <source
+              src="./data/coverr-flying-through-the-clouds-5275-1080p.mp4"
+            />
+
+            Video in you'r browser is not supported!
+          </video>
+        </div>
+        <div class="v-content">
+          <div class="g1">
+            <h1 class="intrested-h1">
+              Interested?<br />
+              Let's dive in then.
+            </h1>
+            <p style="color: white">
+              VISA support for  Students.<br />Modern Educational Facilities with
+              High Level Security
+              
+            </p>
+
+            <div style="padding: 0.8rem 1.75rem" class="btn btn-readmore">
+              <a href="./pages/Register/register.html"
+                ><i class="bx bx-world"></i> Talk To us</a
+              >
+            </div>
+          </div>
+          <div class="g2">
+            <img
+              class="intrested-img"
+              src="./data/undraw_interior_design_re_7mvn.svg"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="rest effect">
+        <h1 class="head">ABSTUD SERVICES</h1>
+        <p style="line-height: 1.5rem; padding: 1rem">
+          "Our consultancy serves as a guiding beacon for students worldwide, illuminating the path to quality education abroad. Through personalized support and unwavering dedication, we empower aspiring scholars to navigate the complexities of the educational landscape with confidence and clarity.
+
+          With a commitment to excellence ingrained in our ethos, we offer comprehensive guidance that transcends borders and bridges cultures. Our services extend far beyond mere consultation; we are steadfast companions throughout the entire journey, from the initial spark of aspiration to the triumphant realization of academic goals.
+
+          At the heart of our service lies a profound belief in the transformative power of education. We understand that each student is unique, with dreams as diverse as the world itself. Thus, we tailor our guidance to suit individual aspirations, ensuring that every step taken is purposeful and meaningful.
+
+          In a world where possibilities abound, we stand as guardians of opportunity, advocates for ambition, and champions of progress. Our service is not merely about facilitating enrollment; it's about nurturing talent, igniting passions, and sculpting futures that shine brightly on the global stage.
+
+          At our consultancy, we don't just advise; we inspire. We don't just guide; we empower. And above all, we don't just serve; we transform lives."
+        </p>
+        
+        <div class="tab-container">
+          <div class="tab" onclick="openTab(event, 'tab1')" onmouseover="revealInfo('tab1')">
+            <img src="./data/Agency.png" alt="Tab 1">
+            <div class="tab-info" id="tab1-info">Information for Tab 1</div>
+          </div>
+          <div class="tab" onclick="openTab(event, 'tab2')" onmouseover="revealInfo('tab1')">
+            <img src="./data/Agency.png" alt="Tab 2">
+            <div class="tab-info" id="tab1-info">Information for Tab 1</div>
+          </div>
+          <div class="tab" onclick="openTab(event, 'tab3')" onmouseover="revealInfo('tab1')">
+            <img src="./data/Agency.png" alt="Tab 3">
+            <div class="tab-info" id="tab1-info">Information for Tab 1</div>
+          </div>
+          <!-- Repeat for other tabs -->
+        </div>
+        
+
+      </section>
+      <section>
+        <div class="container-img">
+          <img src="./data/ddddddddd.png" />
+        </div>
+      </section>
+
+      <footer>
+        
+        <div class="f-whole">
+          <div class="row">
+            <div class="f1">
+              <div class="logo-footer">
+                <img
+                  class="footer-logo"
+                  src="./data/LOGO.png"
+                />
+              </div>
+              </ul>
+              <div class="social">
+                <a
+                  class="hover-effect"
+                  target="_blank"
+                  href="https://instagram.com/agmacademy.ir?igshid=ZDdkNTZiNTM="
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://t.me/AGMAcademy22"
+                  class="hover-effect"
+                  ><i class="bx bxl-telegram"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/agm-academy/"
+                  class="hover-effect"
+                  ><i class="bx bxl-linkedin-square"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://wa.me/message/GHIWS6NTPBV7D1"
+                  class="hover-effect"
+                  ><i class="bx bxl-whatsapp-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="f3">
+              <img
+                class="footer-img"
+                src="./data/undraw_in_the_office_re_jtgc.svg"
+              />
+            </div>
+            <div class="f2">
+              <h3>
+                All rights reserved for
+                <a>ABSTUD</a> <a>. © 2024</a>
+                 
+               
+              </h3>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./scrollup.js"></script>
+  </body>
+</html>
